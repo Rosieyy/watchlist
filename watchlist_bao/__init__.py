@@ -44,3 +44,6 @@ def inject_user():
 
 
 from watchlist_bao import views, errors, commands
+
+if __name__ == '__main__':
+  app.run(host='0.0.0.0', port=80, threaded=True)
